@@ -1,1 +1,4 @@
 
+This is an example code using PySWMM. 
+Compared with using the MATLAB dynamic-link library, PySWMM is easier to get started with. 
+For more information on PySWMM,please refer to: https://github.com/pyswmm/pyswmm/
