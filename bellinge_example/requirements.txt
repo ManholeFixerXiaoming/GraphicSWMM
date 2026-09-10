@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+tqdm
+networkx
+python-louvain
+pyswmm
+swmm-toolkit
+scikit-learn
+torch
+torch-geometric

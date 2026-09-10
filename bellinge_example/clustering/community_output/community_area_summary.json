@@ -1,0 +1,19 @@
+{
+  "inp": "E:\\LID论文2计算程序\\图神经网络建立与测试\\JOH修改补充\\Swmm模型\\BellingeSWMM_最终版本.inp",
+  "output_dir": "E:\\LID论文2计算程序\\图神经网络建立与测试\\JOH修改补充\\聚类\\BellingeSWMM_最终版本_社区聚类输出",
+  "subcatchment_count": 713,
+  "community_count": 47,
+  "category_index_base": "1-based community id, values are 1..47",
+  "subcatchment_category_shape": [
+    713
+  ],
+  "community_total_area_shape": [
+    47
+  ],
+  "total_subcatchment_area": 270.481,
+  "total_community_area": 270.48100000000005,
+  "outputs": {
+    "subcatchment_category": "E:\\LID论文2计算程序\\图神经网络建立与测试\\JOH修改补充\\聚类\\BellingeSWMM_最终版本_社区聚类输出\\复杂子汇水区域类别.npy",
+    "community_total_area": "E:\\LID论文2计算程序\\图神经网络建立与测试\\JOH修改补充\\聚类\\BellingeSWMM_最终版本_社区聚类输出\\复杂子汇水区域类别总面积.npy"
+  }
+}

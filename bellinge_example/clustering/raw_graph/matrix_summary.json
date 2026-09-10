@@ -1,0 +1,51 @@
+{
+  "inp": "E:\\LID论文2计算程序\\图神经网络建立与测试\\JOH修改补充\\BellingeSWMM_最终版本.inp",
+  "output_dir": "E:\\LID论文2计算程序\\图神经网络建立与测试\\JOH修改补充\\聚类\\BellingeSWMM_最终版本_原始图矩阵",
+  "node_count": 1020,
+  "all_link_edge_count": 1037,
+  "edge_type_counts": {
+    "conduit": 1015,
+    "pump": 6,
+    "orifice": 3,
+    "weir": 13
+  },
+  "subcatchment_count": 713,
+  "edges_all_links_shape": [
+    1037,
+    2
+  ],
+  "edges_weight_all_links_shape": [
+    1037
+  ],
+  "edge_type_all_links_shape": [
+    1037
+  ],
+  "X_combine_final_shape": [
+    1020,
+    9
+  ],
+  "NodeLidIndex_shape": [
+    713,
+    1
+  ],
+  "edge_index_base": "1-based, same as MATLAB reference",
+  "edge_source": "CONDUITS + PUMPS + ORIFICES + WEIRS",
+  "edge_type_codes": {
+    "0": "conduit",
+    "1": "pump",
+    "2": "orifice",
+    "3": "weir"
+  },
+  "edge_weight_rule": "conduits use min-max normalized length; pumps/orifices/weirs use median conduit weight",
+  "x_columns": [
+    "normalized subcatchment area sum",
+    "max imperviousness / 100",
+    "normalized subcatchment width sum",
+    "max slope / 100",
+    "is outfall",
+    "normalized node x",
+    "normalized node y",
+    "normalized node invert elevation",
+    "normalized node max depth"
+  ]
+}
